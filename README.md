@@ -1,70 +1,21 @@
-# Getting Started with Create React App
+# Created App in React Js.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Please run `npm install` and then `npm start` in your project directory terminal. And after few minutes you can see you are redirected to browser in this url `http://localhost:3000/`.
 
-## Available Scripts
+## I have used this list of external packages from npm registery:
+1. styled-components
+2. axios
+3. loadash
 
-In the project directory, you can run:
+# Covered
+1. Shown list of movies according to popularity in descending order.
+2. Maked a movie card, which is contains a movie title, image, short description, and genre list in comma saperated value.
+3. Maked Topbar that shows a list of genre and web app title which is `MOVIEFIX`.
+4. Implemented infinite scrolling feature based on user's top and bottom scrolling, As in requirement if user scrolls in top direction we have to load previous years of released movies and for bottom direction scrolls needs to load next year of released movies.
+5. Covered smooth scrolling while changing a movie release year and updating a DOM.
+6. Created amazing UI with the using of styled components.
+7. Created separate file for handling api calling with the use of axios.
+8. Did maked used of loadash for handling delay in api calling while changing the movie release year state.
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Not Covered
+1. As in requirement i need to load movie according to genre select from topbar, this feature is only not covered.
